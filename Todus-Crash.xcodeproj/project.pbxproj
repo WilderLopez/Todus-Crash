@@ -16,6 +16,8 @@
 		813C54E82523D6AA00953D2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813C54E62523D6AA00953D2A /* LaunchScreen.storyboard */; };
 		813C54F32523D6AA00953D2A /* Todus_CrashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813C54F22523D6AA00953D2A /* Todus_CrashTests.swift */; };
 		813C54FE2523D6AA00953D2A /* Todus_CrashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813C54FD2523D6AA00953D2A /* Todus_CrashUITests.swift */; };
+		813C550C2523D6D200953D2A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813C550B2523D6D200953D2A /* ListView.swift */; };
+		813C550E2523D79C00953D2A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813C550D2523D79C00953D2A /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		813C54F92523D6AA00953D2A /* Todus-CrashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Todus-CrashUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		813C54FD2523D6AA00953D2A /* Todus_CrashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todus_CrashUITests.swift; sourceTree = "<group>"; };
 		813C54FF2523D6AA00953D2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		813C550B2523D6D200953D2A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		813C550D2523D79C00953D2A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				813C54E92523D6AA00953D2A /* Info.plist */,
 				813C54DC2523D6A900953D2A /* Todus_Crash.xcdatamodeld */,
 				813C54E32523D6AA00953D2A /* Preview Content */,
+				813C550B2523D6D200953D2A /* ListView.swift */,
+				813C550D2523D79C00953D2A /* DetailView.swift */,
 			);
 			path = "Todus-Crash";
 			sourceTree = "<group>";
@@ -271,7 +277,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				813C54D92523D6A900953D2A /* AppDelegate.swift in Sources */,
+				813C550E2523D79C00953D2A /* DetailView.swift in Sources */,
 				813C54DE2523D6A900953D2A /* Todus_Crash.xcdatamodeld in Sources */,
+				813C550C2523D6D200953D2A /* ListView.swift in Sources */,
 				813C54E02523D6A900953D2A /* ContentView.swift in Sources */,
 				813C54DB2523D6A900953D2A /* SceneDelegate.swift in Sources */,
 			);
@@ -443,6 +451,7 @@
 				DEVELOPMENT_TEAM = X4R2V67R3F;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Todus-Crash/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ighost.Todus-Crash";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -463,6 +472,7 @@
 				DEVELOPMENT_TEAM = X4R2V67R3F;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Todus-Crash/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,7 +480,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ighost.Todus-Crash";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
