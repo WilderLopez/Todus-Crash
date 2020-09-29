@@ -1,4 +1,4 @@
-# Todus-Crash
+# Todus-Crash SwiftUI 1.0
 Sample of crash when a destination view have an item in NavigationView, slow performance updating List
 
 #### 1. Appear the list whit names
